@@ -33,8 +33,8 @@ public class SecretsOfTheNorth extends BaseQuestSkillMap
     {
         quest = Quest.SECRETS_OF_THE_NORTH;
 
-        skillReqs.put(Skill.FLETCHING, 5);
-        skillReqs.put(Skill.COOKING, 30);
-        skillReqs.put(Skill.RANGED, 30);
+        skillReqs.put(Skill.AGILITY, 69); // nice
+        skillReqs.put(Skill.THIEVING, 64);
+        skillReqs.put(Skill.HUNTER, 56);
     }
 }
