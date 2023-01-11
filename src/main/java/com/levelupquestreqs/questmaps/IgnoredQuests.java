@@ -108,6 +108,7 @@ public class IgnoredQuests
         ignoredQuests.add(Quest.FAMILY_PEST);
         ignoredQuests.add(Quest.THE_GENERALS_SHADOW);
         ignoredQuests.add(Quest.IN_SEARCH_OF_KNOWLEDGE);
+        ignoredQuests.add(Quest.INTO_THE_TOMBS);
 
         // Only QP requirements (might be able to add these later?)
         ignoredQuests.add(Quest.BLACK_KNIGHTS_FORTRESS);

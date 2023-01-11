@@ -27,15 +27,14 @@ package com.levelupquestreqs.questmaps.quests;
 import net.runelite.api.Quest;
 import net.runelite.api.Skill;
 
-public class DesertTreasure extends BaseQuestSkillMap
+public class SecretsOfTheNorth extends BaseQuestSkillMap
 {
-    public DesertTreasure()
+    public SecretsOfTheNorth()
     {
-        quest = Quest.DESERT_TREASURE_I;
+        quest = Quest.SECRETS_OF_THE_NORTH;
 
-        skillReqs.put(Skill.THIEVING, 53);
-        skillReqs.put(Skill.MAGIC, 50);
-        skillReqs.put(Skill.SLAYER, 10);
-        skillReqs.put(Skill.FIREMAKING, 50);
+        skillReqs.put(Skill.FLETCHING, 5);
+        skillReqs.put(Skill.COOKING, 30);
+        skillReqs.put(Skill.RANGED, 30);
     }
 }

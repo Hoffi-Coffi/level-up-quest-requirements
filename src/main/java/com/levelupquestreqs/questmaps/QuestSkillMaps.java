@@ -144,6 +144,7 @@ public class QuestSkillMaps
         questSkillMaps.add(new Watchtower());
         questSkillMaps.add(new WhatLiesBelow());
         questSkillMaps.add(new ZogreFleshEaters());
+        questSkillMaps.add(new SecretsOfTheNorth());
     }
 
     public List<Quest> getQuestsFulfilledByLevel(Map<Skill, Integer> previousSkills, Skill skillLevelled, Integer newLevel)
