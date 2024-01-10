@@ -100,7 +100,6 @@ public class IgnoredQuests
         ignoredQuests.add(Quest.A_PORCINE_OF_INTEREST);
         ignoredQuests.add(Quest.A_NIGHT_AT_THE_THEATRE);
         ignoredQuests.add(Quest.ALFRED_GRIMHANDS_BARCRAWL);
-        ignoredQuests.add(Quest.ARCHITECTURAL_ALLIANCE);
         ignoredQuests.add(Quest.BEAR_YOUR_SOUL);
         ignoredQuests.add(Quest.DADDYS_HOME);
         ignoredQuests.add(Quest.THE_ENCHANTED_KEY);
@@ -109,6 +108,8 @@ public class IgnoredQuests
         ignoredQuests.add(Quest.THE_GENERALS_SHADOW);
         ignoredQuests.add(Quest.IN_SEARCH_OF_KNOWLEDGE);
         ignoredQuests.add(Quest.INTO_THE_TOMBS);
+        ignoredQuests.add(Quest.CHILDREN_OF_THE_SUN);
+        ignoredQuests.add(Quest.HIS_FAITHFUL_SERVANTS);
 
         // Only QP requirements (might be able to add these later?)
         ignoredQuests.add(Quest.BLACK_KNIGHTS_FORTRESS);

@@ -145,6 +145,8 @@ public class QuestSkillMaps
         questSkillMaps.add(new WhatLiesBelow());
         questSkillMaps.add(new ZogreFleshEaters());
         questSkillMaps.add(new SecretsOfTheNorth());
+        questSkillMaps.add(new DesertTreasureII());
+        questSkillMaps.add(new PathOfGlouphrie());
     }
 
     public List<Quest> getQuestsFulfilledByLevel(Map<Skill, Integer> previousSkills, Skill skillLevelled, Integer newLevel)
