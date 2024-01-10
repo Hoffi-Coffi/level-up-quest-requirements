@@ -151,7 +151,7 @@ public class LevelUpQuestReqsInterfaceInput extends ChatboxInput implements KeyL
 
     private void triggerCloseViaMessage()
     {
-        final Widget questReqContinue = plugin.getClient().getWidget(WidgetInfo.CHATBOX_CONTAINER).getChild(2);
+        final Widget questReqContinue = plugin.getClient().getWidget(ComponentID.CHATBOX_CONTAINER).getChild(2);
         questReqContinue.setText("Please wait...");
 
         closeMessage = true;
